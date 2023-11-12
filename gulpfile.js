@@ -1,9 +1,9 @@
-'use strict';
+'use#strict';
 
-/*
+/!
  global module,
  require
- */
+ !/
 
 const path         = require('path'),
       gulp         = require('gulp'),
@@ -252,3 +252,4 @@ gulp.task('help', () => {
 });
 
 gulp.task('default', ['help']);
+ 
