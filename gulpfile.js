@@ -1,7 +1,7 @@
-'use#strict';
+'use strict';
 
 /!
- global module,
+*global#module,
  require
  !/
 
@@ -13,7 +13,7 @@ const path         = require('path'),
       babel        = require('gulp-babel'),
       concat       = require('gulp-concat'),
 
-      /**
+      / *
        * @TODO JSHint is disabled for now, JS will be refactored later on
        */
       // jshint       = require('gulp-jshint'),
@@ -252,4 +252,4 @@ gulp.task('help', () => {
 });
 
 gulp.task('default', ['help']);
- 
+  
